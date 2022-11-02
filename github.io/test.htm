@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>绝对定位模拟固定定位</title>
+		<style>
+			*{
+				margin: 0;
+				height: 0;
+			}
+			#stay{
+				height: 1000px;
+			}
+			html{
+				overflow: hidden;
+				height: 100%;
+			}
+			body{
+				overflow: auto;
+				height: 100%;
+			}
+			#box{
+				width: 300px;
+				height: 300px;
+				background-color: #FF4500;
+				position: absolute;
+				left: 100px;
+				top:100px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box"></div>
+		<div id="stay">
+			站位<br />
+			站位<br />
+			站位<br />
+			站位<br />
+			站位<br />
+		</div>
+	</body>
+</html>
+
